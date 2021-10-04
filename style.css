@@ -1,0 +1,114 @@
+        
+        body{
+            display: grid;
+            grid-gap: 1rem 0.5rem;
+            grid-template-areas: 
+            "header header header"
+            "aside main nav"
+            "footer footer footer";
+            grid-template-columns: 15% 60% 25%;
+            grid-template-rows: auto 80vh auto;
+        }
+        .header{
+            grid-area: header;
+            height: 110px; /* estabelecendo a altura da barra de menu */            
+            background-image: url(imgheader.jpg);            
+        }
+        .logo{           
+            
+            display: inline;
+            width: 90px;
+            height: 70px;
+            padding-top: 15px;
+            padding-left: 25px;
+            border-radius: 50%;
+        }
+        .limenu{
+            display: inline;      
+            font-size: 20px;
+            padding-bottom: 10px;  
+            padding-left: 120px;  
+            margin-right: 10px;           
+            float: right;           
+        }
+        .ancoraheader{
+            color: aliceblue;
+        }
+        #div1{
+            display: inline-block;
+            
+        }
+        #div2{
+            display: inline-block;        
+            margin-right: 100px;
+        }
+
+        .aside{
+            grid-area: aside;
+            width: 100%;  
+            background-image: url(imgheader.jpg);          
+        }       
+        .main{
+            display: grid;
+            grid-area: main; 
+            grid-gap: 1rem 0.5rem;       
+            
+            grid-template-areas: 
+            "area1 area1"
+            "area2 area3";
+            grid-template-columns: 50% 50% ;
+            grid-template-rows: auto auto;
+        }
+        .area1{
+            grid: area1;
+            height: 100%;
+            width: 98%;
+            background-color: brown;
+        }
+        #mainimg{
+            height: 100%;
+            width: 100%;
+        }
+        #p1{
+            text-align: justify;
+        }
+        .area2{
+            grid: area2;
+            height: 100%;
+            width: 98%;
+            background-color:white;
+        }
+        .area3{
+            grid: area3;
+            height: 100%;
+            width: 200%;
+            background-color:blue;
+        }       
+        .nav{
+            grid-area: nav;
+            width: 100%;
+            background-color: black;
+            
+        }
+        .footer{
+            grid-area: footer;
+            height: 100px;
+            background-image: url(imgheader.jpg);
+            
+        }
+        #p2{
+            display: inline;
+            color: white;
+            float: right;
+            padding-top: 20px;
+            padding-right: 400px;
+        }
+        #link1{
+            color: white;
+            float: right;
+            padding-top: 35px;
+            padding-right: 20px;
+            
+        }
+    
+    

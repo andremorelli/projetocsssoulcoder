@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style3.css">
+    <title>Formulario</title>
+</head>
+<body>
+    <section class="flex-imagem">
+        <div class="div1">
+            <h1>Formulário</h1><br>
+        </div>
+        <div class="div2">  
+            <p>
+                Segue formulário da Horizonte Sutentável para solicitar um orçamento de nossa consultória
+            </p>
+        </div>
+        <div class="div3">            
+            <a href="index.html"><img id="img" src="imgformulario.jpeg" ></a>
+        </div>
+    </section>
+    <section class="flex-formulario">
+        <div class="div2">
+            <form>
+                <h2>Preencha seu Dados</h2><br><br>
+                <fieldset>
+                    <legend>
+                        Dados Pessoais:
+                    </legend>
+                    <label>
+                        Nome:<br>
+                        <input type="text" name="name" size="30" maxlength="100" placeholder="Digite seu nome completo">
+                    </label><br><br>
+                    <label>
+                        Email:<br>
+                        <input type="email" name="name" size="30" maxlength="100" placeholder="nome@dominio.com.br">
+                    </label><br><br>
+                    <label>
+                        Empresa:<br>
+                        <input type="text" name="name" size="30" maxlength="100" placeholder="Digite o nome da Empresa">
+                    </label><br><br>
+                    <label for="hear-about">
+                        Como ssoube de nossa empresa?
+                    </label>
+                    <select name="referrer" id="hear-about">
+                        <option value="google">Google</option>
+                        <option value="google">Amigos</option>
+                        <option value="google">Rádio</option>
+                        <option value="google">Outros</option>
+                    </select><br><br>
+
+                    <label>
+                        Comentário:<br>
+                        <textarea rows="4" cols="30"></textarea>
+                    </label><br><br>
+                    <label>    
+                        11 + 10 = ?<br>
+                        <input type="number" name="name" size="40" maxlength="100" placeholder="Informe o Resultado" style="margin-bottom: 8px;">
+                    </label><br>
+                    <label>
+                        <input type="checkbox" name="subscribe" checked="checked">
+                        Aceito receber informações por Email
+                    </label><br><br>
+                    <input type="submit" value="Submit review" style="margin-bottom: 8px;">
+                </fieldset>
+            </form>
+        </div>
+    </section>
+   <!-- <form>
+        <fieldset>
+            <legend>
+                Dados Pessoais:
+            </legend>
+            <label>
+                Nome:
+                <input type="text" name="name" size="30" maxlength="100" placeholder="Digite seu nome completo">
+            </label><br><br>
+            <label>
+                Email:
+                <input type="email" name="name" size="30" maxlength="100" placeholder="nome@dominio.com.br">
+            </label>
+        </fieldset>
+    </form>-->
+
+</body>
+</html>
